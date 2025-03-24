@@ -114,21 +114,9 @@ transaction-logger/
 
 ### Challenges & Solutions
 
-1. **Real-time Updates**
-   - Challenge: Implementing real-time updates without overwhelming the server
-   - Solution: Used Supabase's real-time subscriptions with client-side caching
+1. Deployment: I wanted to deploy my frontend on AWS Amplify and backend on AWS Beanstalk service but upon deploying on Beanstalk I realized that I'll have to buy a ssl certificate to get a https domain. Eventually, I deployed backend on render for free and have been able to host frontend on Amplify and backend on Render. 
 
-2. **Filter State Management**
-   - Challenge: Managing complex filter state without unnecessary rerenders
-   - Solution: Implemented local filter state with apply/reset functionality
-
-3. **Type Safety**
-   - Challenge: Ensuring type safety across the full stack
-   - Solution: Used TypeScript with shared interfaces between frontend and backend
-
-4. **Optimistic Updates**
-   - Challenge: Providing instant feedback while maintaining data consistency
-   - Solution: Implemented optimistic updates with error rollback using React Query
+Url: https://main.d2rvshe52nio3p.amplifyapp.com/
 
 ### Performance Optimizations
 
