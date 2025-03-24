@@ -121,3 +121,4 @@ Url: https://main.d2rvshe52nio3p.amplifyapp.com/
 ### Performance Optimizations
 
 - Used pagination for large datasets
+- Optimistic Updates
